@@ -163,6 +163,11 @@
       nvim;
     }
 
+    function c() { 
+      cd ~/clones/$1;
+      nvim;
+    }
+
     function gic() {
       cd ~/clones/;
       git clone $1;

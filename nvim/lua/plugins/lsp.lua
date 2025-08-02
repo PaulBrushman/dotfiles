@@ -5,7 +5,8 @@ return {
       luals = {},
       zls = {},
       nixd = {},
-      pylsp = {}
+      pylsp = {},
+      nimlsp = {},
     },
   },
 }

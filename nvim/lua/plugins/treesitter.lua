@@ -15,6 +15,7 @@ return {
         "lua",
         "markdown",
         "markdown_inline",
+        "nim", 
         "python",
         "query",
         "regex",
