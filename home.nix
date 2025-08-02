@@ -185,6 +185,12 @@
     configHypr = lib.hm.dag.entryAfter ["writeBoudary"] ''
       run ln -sfT $VERBOSE_ARG $HOME/dotfiles/hypr $HOME/.config/hypr
     '';
+    configVivaldi = lib.hm.dag.entryAfter ["writeBoudary"] ''
+      run ln -sfT $VERBOSE_ARG $HOME/dotfiles/vivaldiCSS/ $HOME/.config/vivaldiCSS
+    '';
+    configKitty = lib.hm.dag.entryAfter ["writeBoudary"] ''
+      run ln -sfT $VERBOSE_ARG $HOME/dotfiles/kitty $HOME/.config/kitty
+    '';
   };
 
   home.file = {};
